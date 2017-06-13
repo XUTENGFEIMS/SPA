@@ -1,0 +1,315 @@
+@import url("../lib/reset.css");
+* {
+  padding: 0;
+  margin: 0;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+html,
+body
+ {
+  width: 100%;
+  height: 100%;
+}
+.header{
+	box-sizing: border-box;
+	padding: 10px;
+	z-index: 99999;
+  border-top: 1px solid #ededed;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #3ea1fe;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.header .head-img{
+	float: left;
+	height: 60px;
+	width: 60px;
+}
+.header .head-img img{
+	width: 100%;
+	height: 100%;
+}
+.header h1{
+	color: white;
+	margin-top: 2rem;
+	font-size:1.6rem;
+}
+.header p{
+	color: white;
+	margin-top: -2rem;
+	float: right;
+	font-size:1.6rem;
+}
+.main{
+	padding-top: 90px;
+	width: 100%;
+	height: auto;
+	
+}
+.main .search{
+	position: relative;
+	text-align: center;
+		padding:10px;
+	
+		border-bottom: 1px solid #e3e3e3;
+	}
+	.main .search span{
+		width: 22px;
+		height: 22px;
+		left: 50%;
+	transform: translate(-50%,0);
+		top: 16px;
+		position: absolute;
+		background: url(../../images/QQ-img/56_03.png);
+	}
+	.main .search input{
+		border-radius:5px;
+		padding: 10px 0;
+		background: #f3f3f3;
+		border: none;
+		outline: none;
+		width: 100%;
+		height: 100%;
+	}
+	.search input::-webkit-input-placeholder {
+		font-size: 16px;
+     text-align: center;
+     transform: translate(10%,0);
+}
+.newfriend{
+	border-bottom: 1px solid #e7e8ea;
+	font-size:1.8rem;
+	padding: 10px;
+}
+.newfriend h1{
+	color: #0c0c0c;
+	float: left;
+}
+.newfriend span{
+	float: right;
+}
+.newfriend span img{
+	vertical-align: middle;
+}
+.line-cr{
+	padding: 5px 0;
+	background:#f8f9fb;
+}
+.QQ-nav{
+
+	border-top: solid 1px #e3e3e3;
+	border-bottom:#e3e3e3 solid 1px;
+	padding: 0px 10px;
+	height: 50px;
+	
+}
+
+.QQ-nav .swiper-container .swiper-wrapper .swiper-slide a{
+	
+     float: left;
+	font-size: 1.4rem;
+	line-height: 40px;
+}
+.QQ-nav .swiper-container .swiper-wrapper .swiper-slide .active{
+	color: #1db3d8;
+	padding-bottom: 6px;
+	border-bottom: 3px solid #1db3d8;
+}
+#one{
+	display: block;
+}
+.content-one{
+	padding: 10px;
+	
+}
+.num{
+	display: none;
+}
+.content-one p{
+	float: left;
+}
+.content-one p a{
+	font-size: 1.6rem;
+	color: #000000;
+	padding: 0 10px;
+}
+.content-one p a img{
+	vertical-align: middle;
+}
+.content-one span{
+	float: right;
+}
+.content1{
+	border-top:1px solid #e2e2e2;
+	border-bottom:1px solid #e2e2e2;
+	padding: 5px 10px;
+}
+.content1 .chat-f{
+		margin-right: 10px;
+	   float: left;
+}
+.content1 .chat-f .chat-f-w{
+	display: table-cell;
+	width: 40px;
+	height: 40px;
+	text-align:center;
+    vertical-align: middle; 
+}
+.content1 .chat-f .chat-f-w img{
+		vertical-align: middle;
+	    max-height: 40px;
+	    max-width: 40px;
+}
+ .content1 .chat-r p{
+ 
+	font-weight: 600;
+	font-size: 16px;
+	color: #000000;
+}
+.content2{
+	
+	border-bottom:1px solid #e2e2e2;
+	padding: 5px 10px;
+}
+.content2 .chat-f{
+		margin-right: 10px;
+	   float: left;
+}
+.content2 .chat-f .chat-f-w{
+	display: table-cell;
+	width: 40px;
+	height: 40px;
+	text-align:center;
+    vertical-align: middle; 
+}
+.content2 .chat-f .chat-f-w img{
+		vertical-align: middle;
+	    max-height: 40px;
+	    max-width: 40px;
+}
+ .content2 .chat-r p{
+ 
+	font-weight: 600;
+	font-size: 16px;
+	color: #000000;
+}
+.txl {
+	padding: 10px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.txl h1{
+	
+	font-weight: 600;
+	color: black;
+	font-size: 1.6rem;
+	float: left;
+}
+.txl span{
+	float: right;
+}
+.txl span a{
+	padding-right: 10px;
+	font-size: 1.4rem;
+}
+.txl span img{
+	vertical-align: middle;
+}
+.flock{
+	
+}
+.flock-add{
+	border-bottom: 1px solid #e2e2e2;
+	padding: 10px;
+}
+.flock-add p{
+	float: left;
+}
+.flock-add p a{
+	font-size: 1.6rem;
+	color: #000000;
+	padding: 0 10px;
+}
+.flock-add p a img{
+	vertical-align: middle;
+}
+.flock-infor{
+	padding: 10px;
+	
+}
+.flock-infor p{
+	float: left;
+}
+.flock-infor p a{
+	font-size: 1.6rem;
+	color: #000000;
+	padding: 0 10px;
+}
+.flock-infor p a img{
+	vertical-align: middle;
+}
+.flock-infor span{
+	float: right;
+}
+
+.flock-chat{
+	
+	margin-bottom: 60px;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 10px;
+}
+.flock-chat p{
+	float: left;
+}
+.flock-chat p a{
+	font-size: 1.6rem;
+	color: #000000;
+	padding: 0 10px;
+}
+.flock-chat p a img{
+	vertical-align: middle;
+}
+.footer{
+	
+	 z-index: 99999;
+  border-top: 1px solid #ededed;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.footer .message {
+  background: url(../../images/QQ-img/1_11.png) no-repeat 50% 5px;
+  background-size: auto 16px;
+}
+.footer  .contacts {
+  background: url(../../images/QQ-img/1_13.png) no-repeat 50% 5px;
+  background-size: auto 16px;
+}
+.footer  .dynamic {
+  background: url(../../images/QQ-img/23_03.png) no-repeat 50% 5px;
+  background-size: auto 16px;
+}
+
+.footer  a {
+  float: left;
+  width: 33%;
+  display: inline-block;
+  font-size: 12px;
+}
+.footer  a span {
+  position: relative;
+  color: #7f7f7f;
+  display: inline-block;
+  margin-top: 25px;
+}
